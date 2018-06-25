@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Terminal stuff</title>
+</head>
+<body>
+<p>(tensorflow) Macbook:tensorflow rose$ pip3 install --upgrade tensorflow
+Collecting tensorflow
+  Downloading https://files.pythonhosted.org/packages/03/ad/d732a5d9d50bfcd8aeb6e4a266065a8868829388e4e2b529ff689f1fc923/tensorflow-1.8.0-cp36-cp36m-macosx_10_11_x86_64.whl (46.5MB)
+    100% |████████████████████████████████| 46.5MB 425kB/s 
+Collecting gast>=0.2.0 (from tensorflow)
+  Downloading https://files.pythonhosted.org/packages/5c/78/ff794fcae2ce8aa6323e789d1f8b3b7765f601e7702726f430e814822b96/gast-0.2.0.tar.gz
+Collecting tensorboard<1.9.0,>=1.8.0 (from tensorflow)
+  Downloading https://files.pythonhosted.org/packages/59/a6/0ae6092b7542cfedba6b2a1c9b8dceaf278238c39484f3ba03b03f07803c/tensorboard-1.8.0-py3-none-any.whl (3.1MB)
+    100% |████████████████████████████████| 3.1MB 2.2MB/s 
+Requirement not upgraded as not directly required: wheel>=0.26 in ./lib/python3.6/site-packages (from tensorflow) (0.31.1)
+Collecting six>=1.10.0 (from tensorflow)
+  Downloading https://files.pythonhosted.org/packages/67/4b/141a581104b1f6397bfa78ac9d43d8ad29a7ca43ea90a2d863fe3056e86a/six-1.11.0-py2.py3-none-any.whl
+Collecting protobuf>=3.4.0 (from tensorflow)
+  Downloading https://files.pythonhosted.org/packages/6d/7e/51c91b28cb8446ebd7231d375a2025bca4c59d15ddc0cf2dd0867b400cd7/protobuf-3.6.0-cp36-cp36m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl (1.2MB)
+    100% |████████████████████████████████| 1.2MB 671kB/s 
+Collecting termcolor>=1.1.0 (from tensorflow)
+  Downloading https://files.pythonhosted.org/packages/8a/48/a76be51647d0eb9f10e2a4511bf3ffb8cc1e6b14e9e4fab46173aa79f981/termcolor-1.1.0.tar.gz
+Collecting grpcio>=1.8.6 (from tensorflow)
+  Downloading https://files.pythonhosted.org/packages/68/57/da122cbfc1b7815381480b23044fff06b90f58c1be9310e68c2d6b1d623c/grpcio-1.12.1-cp36-cp36m-macosx_10_7_intel.whl (1.9MB)
+    100% |████████████████████████████████| 1.9MB 1.6MB/s 
+Collecting numpy>=1.13.3 (from tensorflow)
+  Downloading https://files.pythonhosted.org/packages/f6/cd/b2c50b5190b66c711c23ef23c41d450297eb5a54d2033f8dcb3b8b13ac85/numpy-1.14.5-cp36-cp36m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl (4.7MB)
+    100% |████████████████████████████████| 4.7MB 1.0MB/s 
+Collecting astor>=0.6.0 (from tensorflow)
+  Downloading https://files.pythonhosted.org/packages/b2/91/cc9805f1ff7b49f620136b3a7ca26f6a1be2ed424606804b0fbcf499f712/astor-0.6.2-py2.py3-none-any.whl
+Collecting absl-py>=0.1.6 (from tensorflow)
+  Downloading https://files.pythonhosted.org/packages/57/8d/6664518f9b6ced0aa41cf50b989740909261d4c212557400c48e5cda0804/absl-py-0.2.2.tar.gz (82kB)
+    100% |████████████████████████████████| 92kB 615kB/s 
+Collecting markdown>=2.6.8 (from tensorboard<1.9.0,>=1.8.0->tensorflow)
+  Downloading https://files.pythonhosted.org/packages/6d/7d/488b90f470b96531a3f5788cf12a93332f543dbab13c423a5e7ce96a0493/Markdown-2.6.11-py2.py3-none-any.whl (78kB)
+    100% |████████████████████████████████| 81kB 1.8MB/s 
+Collecting bleach==1.5.0 (from tensorboard<1.9.0,>=1.8.0->tensorflow)
+  Downloading https://files.pythonhosted.org/packages/33/70/86c5fec937ea4964184d4d6c4f0b9551564f821e1c3575907639036d9b90/bleach-1.5.0-py2.py3-none-any.whl
+Collecting html5lib==0.9999999 (from tensorboard<1.9.0,>=1.8.0->tensorflow)
+  Downloading https://files.pythonhosted.org/packages/ae/ae/bcb60402c60932b32dfaf19bb53870b29eda2cd17551ba5639219fb5ebf9/html5lib-0.9999999.tar.gz (889kB)
+    100% |████████████████████████████████| 890kB 905kB/s 
+Collecting werkzeug>=0.11.10 (from tensorboard<1.9.0,>=1.8.0->tensorflow)
+  Downloading https://files.pythonhosted.org/packages/20/c4/12e3e56473e52375aa29c4764e70d1b8f3efa6682bef8d0aae04fe335243/Werkzeug-0.14.1-py2.py3-none-any.whl (322kB)
+    100% |████████████████████████████████| 327kB 2.2MB/s 
+Requirement not upgraded as not directly required: setuptools in ./lib/python3.6/site-packages (from protobuf>=3.4.0->tensorflow) (39.2.0)
+Building wheels for collected packages: gast, termcolor, absl-py, html5lib
+  Running setup.py bdist_wheel for gast ... done
+  Stored in directory: /Users/rose/Library/Caches/pip/wheels/9a/1f/0e/3cde98113222b853e98fc0a8e9924480a3e25f1b4008cedb4f
+  Running setup.py bdist_wheel for termcolor ... done
+  Stored in directory: /Users/rose/Library/Caches/pip/wheels/7c/06/54/bc84598ba1daf8f970247f550b175aaaee85f68b4b0c5ab2c6
+  Running setup.py bdist_wheel for absl-py ... done
+  Stored in directory: /Users/rose/Library/Caches/pip/wheels/a0/f8/e9/1933dbb3447ea6ef57062fd5461cb118deb8c2ed074e8344bf
+  Running setup.py bdist_wheel for html5lib ... done
+  Stored in directory: /Users/rose/Library/Caches/pip/wheels/50/ae/f9/d2b189788efcf61d1ee0e36045476735c838898eef1cad6e29
+Successfully built gast termcolor absl-py html5lib
+Installing collected packages: gast, markdown, six, html5lib, bleach, protobuf, numpy, werkzeug, tensorboard, termcolor, grpcio, astor, absl-py, tensorflow
+Successfully installed absl-py-0.2.2 astor-0.6.2 bleach-1.5.0 gast-0.2.0 grpcio-1.12.1 html5lib-0.9999999 markdown-2.6.11 numpy-1.14.5 protobuf-3.6.0 six-1.11.0 tensorboard-1.8.0 tensorflow-1.8.0 termcolor-1.1.0 werkzeug-0.14.1
+</p>
+</body>
+</html>
